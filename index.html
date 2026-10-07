@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Hub de mini-jogos educativos.">
+  <title>Hub Edu — Início</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navegação principal">
+      <a class="brand" href="index.html" aria-label="Hub Edu — início">
+        <span class="brand-mark">H</span><span>Hub Edu</span>
+      </a>
+      <nav class="nav">
+        <a class="nav-link active" href="index.html"><span>⌂</span> Início</a>
+        <a class="nav-link" href="pages/explorar.html"><span>◈</span> Explorar</a>
+        <a class="nav-link" href="pages/biblioteca.html"><span>▣</span> Biblioteca</a>
+      </nav>
+      <div class="sidebar-bottom">
+        <span class="eyebrow">MVP</span>
+        <p>Mini-jogos educativos em um só lugar.</p>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="mobile-header">
+        <a class="brand" href="index.html"><span class="brand-mark">H</span><span>Hub Edu</span></a>
+      </header>
+
+      <section class="hero" id="hero"></section>
+
+      <section class="section" id="recent-section" hidden>
+        <div class="section-heading">
+          <div><span class="eyebrow">Retomar</span><h2>Continue jogando</h2></div>
+          <a href="pages/biblioteca.html">Ver biblioteca →</a>
+        </div>
+        <div class="game-grid compact-grid" id="recent-grid"></div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <div><span class="eyebrow">Descobrir</span><h2>Explore por matéria</h2></div>
+          <a href="pages/explorar.html">Ver todos →</a>
+        </div>
+        <div class="subject-grid" id="subject-grid"></div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading">
+          <div><span class="eyebrow">Catálogo</span><h2>Jogos em destaque</h2></div>
+          <a href="pages/explorar.html">Explorar →</a>
+        </div>
+        <div class="game-grid" id="featured-grid"></div>
+      </section>
+    </main>
+  </div>
+
+  <nav class="mobile-nav" aria-label="Navegação mobile">
+    <a class="active" href="index.html"><span>⌂</span><small>Início</small></a>
+    <a href="pages/explorar.html"><span>◈</span><small>Explorar</small></a>
+    <a href="pages/biblioteca.html"><span>▣</span><small>Biblioteca</small></a>
+  </nav>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

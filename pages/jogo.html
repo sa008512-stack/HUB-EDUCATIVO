@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Detalhes de um mini-jogo educativo.">
+  <title>Hub Edu — Jogo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navegação principal">
+      <a class="brand" href="../index.html"><span class="brand-mark">H</span><span>Hub Edu</span></a>
+      <nav class="nav">
+        <a class="nav-link" href="../index.html"><span>⌂</span> Início</a>
+        <a class="nav-link active" href="explorar.html"><span>◈</span> Explorar</a>
+        <a class="nav-link" href="biblioteca.html"><span>▣</span> Biblioteca</a>
+      </nav>
+    </aside>
+
+    <main class="main-content">
+      <header class="mobile-header">
+        <a class="brand" href="../index.html"><span class="brand-mark">H</span><span>Hub Edu</span></a>
+      </header>
+      <div id="game-detail"></div>
+    </main>
+  </div>
+
+  <nav class="mobile-nav" aria-label="Navegação mobile">
+    <a href="../index.html"><span>⌂</span><small>Início</small></a>
+    <a class="active" href="explorar.html"><span>◈</span><small>Explorar</small></a>
+    <a href="biblioteca.html"><span>▣</span><small>Biblioteca</small></a>
+  </nav>
+
+  <script type="module" src="../js/game-page.js"></script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sua biblioteca de jogos educativos.">
+  <title>Hub Edu — Biblioteca</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navegação principal">
+      <a class="brand" href="../index.html"><span class="brand-mark">H</span><span>Hub Edu</span></a>
+      <nav class="nav">
+        <a class="nav-link" href="../index.html"><span>⌂</span> Início</a>
+        <a class="nav-link" href="explorar.html"><span>◈</span> Explorar</a>
+        <a class="nav-link active" href="biblioteca.html"><span>▣</span> Biblioteca</a>
+      </nav>
+      <div class="sidebar-bottom"><span class="eyebrow">LOCAL</span><p>Sua biblioteca fica salva neste navegador.</p></div>
+    </aside>
+
+    <main class="main-content">
+      <header class="mobile-header">
+        <a class="brand" href="../index.html"><span class="brand-mark">H</span><span>Hub Edu</span></a>
+      </header>
+
+      <section class="page-header">
+        <span class="eyebrow">Sua coleção</span>
+        <h1>Minha biblioteca</h1>
+        <p>Seus jogos salvos neste dispositivo.</p>
+      </section>
+
+      <section class="library-toolbar">
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="library-search" type="search" placeholder="Pesquisar na biblioteca..." autocomplete="off">
+        </label>
+      </section>
+
+      <section class="game-grid" id="library-grid" aria-live="polite"></section>
+
+      <section class="empty-state" id="library-empty">
+        <div class="empty-icon">▣</div>
+        <h2>Sua biblioteca está vazia</h2>
+        <p>Explore o catálogo e adicione jogos para encontrá-los aqui.</p>
+        <a class="button primary" href="explorar.html">Explorar jogos</a>
+      </section>
+    </main>
+  </div>
+
+  <nav class="mobile-nav" aria-label="Navegação mobile">
+    <a href="../index.html"><span>⌂</span><small>Início</small></a>
+    <a href="explorar.html"><span>◈</span><small>Explorar</small></a>
+    <a class="active" href="biblioteca.html"><span>▣</span><small>Biblioteca</small></a>
+  </nav>
+
+  <script type="module" src="../js/library-page.js"></script>
+</body>
+</html>

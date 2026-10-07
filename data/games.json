@@ -1,0 +1,98 @@
+{
+  "games": [
+    {
+      "id": "caca-as-raizes",
+      "nome": "Caça às Raízes",
+      "descricao": "Resolva desafios de equações do segundo grau e avance pelo mapa.",
+      "materia": "Matemática",
+      "conteudo": [
+        "Equações do 2º grau",
+        "Fórmula de Bhaskara"
+      ],
+      "autor": "Equipe Matemática",
+      "capa": "assets/images/capas/matematica.svg",
+      "url": "https://example.com/",
+      "dificuldade": "medio",
+      "duracaoMin": 10,
+      "tags": [
+        "puzzle",
+        "álgebra"
+      ],
+      "objetivos": [
+        "Praticar a resolução de equações do 2º grau.",
+        "Aplicar a fórmula de Bhaskara."
+      ],
+      "status": "publicado"
+    },
+    {
+      "id": "revolucao-em-jogo",
+      "nome": "Revolução em Jogo",
+      "descricao": "Tome decisões e descubra acontecimentos que marcaram a Revolução Francesa.",
+      "materia": "História",
+      "conteudo": [
+        "Revolução Francesa",
+        "Iluminismo"
+      ],
+      "autor": "Equipe História",
+      "capa": "assets/images/capas/historia.svg",
+      "url": "https://example.com/",
+      "dificuldade": "facil",
+      "duracaoMin": 8,
+      "tags": [
+        "quiz",
+        "história"
+      ],
+      "objetivos": [
+        "Reconhecer causas e acontecimentos da Revolução Francesa."
+      ],
+      "status": "publicado"
+    },
+    {
+      "id": "celula-master",
+      "nome": "Célula Master",
+      "descricao": "Identifique organelas e suas funções em uma sequência de desafios rápidos.",
+      "materia": "Biologia",
+      "conteudo": [
+        "Célula",
+        "Organelas",
+        "Funções celulares"
+      ],
+      "autor": "Equipe Biologia",
+      "capa": "assets/images/capas/biologia.svg",
+      "url": "https://example.com/",
+      "dificuldade": "facil",
+      "duracaoMin": 7,
+      "tags": [
+        "quiz",
+        "biologia"
+      ],
+      "objetivos": [
+        "Identificar organelas celulares e relacioná-las às suas funções."
+      ],
+      "status": "publicado"
+    },
+    {
+      "id": "desafio-da-lingua",
+      "nome": "Desafio da Língua",
+      "descricao": "Resolva desafios de interpretação e linguagem para desbloquear novas fases.",
+      "materia": "Português",
+      "conteudo": [
+        "Interpretação",
+        "Figuras de linguagem"
+      ],
+      "autor": "Equipe Português",
+      "capa": "assets/images/capas/portugues.svg",
+      "url": "https://example.com/",
+      "dificuldade": "dificil",
+      "duracaoMin": 12,
+      "tags": [
+        "quiz",
+        "linguagem"
+      ],
+      "objetivos": [
+        "Praticar interpretação textual e reconhecer figuras de linguagem."
+      ],
+      "status": "publicado"
+    }
+  ]
+}

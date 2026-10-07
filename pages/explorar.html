@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore os mini-jogos educativos do Hub Edu.">
+  <title>Hub Edu — Explorar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navegação principal">
+      <a class="brand" href="../index.html"><span class="brand-mark">H</span><span>Hub Edu</span></a>
+      <nav class="nav">
+        <a class="nav-link" href="../index.html"><span>⌂</span> Início</a>
+        <a class="nav-link active" href="explorar.html"><span>◈</span> Explorar</a>
+        <a class="nav-link" href="biblioteca.html"><span>▣</span> Biblioteca</a>
+      </nav>
+      <div class="sidebar-bottom"><span class="eyebrow">CATÁLOGO</span><p>Encontre um jogo pelo nome, matéria ou conteúdo.</p></div>
+    </aside>
+
+    <main class="main-content">
+      <header class="mobile-header">
+        <a class="brand" href="../index.html"><span class="brand-mark">H</span><span>Hub Edu</span></a>
+      </header>
+
+      <section class="page-header">
+        <span class="eyebrow">Catálogo</span>
+        <h1>Explore os jogos</h1>
+        <p>Encontre uma atividade por matéria, dificuldade ou conteúdo.</p>
+      </section>
+
+      <section class="toolbar" aria-label="Busca e filtros">
+        <label class="search-box">
+          <span aria-hidden="true">⌕</span>
+          <input id="search-input" type="search" placeholder="Pesquisar jogos, matérias ou conteúdos..." autocomplete="off">
+        </label>
+        <div class="filters">
+          <label>Matéria
+            <select id="subject-filter"><option value="">Todas</option></select>
+          </label>
+          <label>Dificuldade
+            <select id="difficulty-filter">
+              <option value="">Todas</option>
+              <option value="facil">Fácil</option>
+              <option value="medio">Médio</option>
+              <option value="dificil">Difícil</option>
+            </select>
+          </label>
+        </div>
+      </section>
+
+      <div class="results-meta"><span id="results-count"></span><button class="text-button" id="clear-filters" type="button">Limpar filtros</button></div>
+      <section class="game-grid" id="catalog-grid" aria-live="polite"></section>
+      <section class="empty-state" id="empty-state" hidden>
+        <div class="empty-icon">⌕</div>
+        <h2>Nenhum jogo encontrado</h2>
+        <p>Tente outra busca ou remova algum filtro.</p>
+      </section>
+    </main>
+  </div>
+
+  <nav class="mobile-nav" aria-label="Navegação mobile">
+    <a href="../index.html"><span>⌂</span><small>Início</small></a>
+    <a class="active" href="explorar.html"><span>◈</span><small>Explorar</small></a>
+    <a href="biblioteca.html"><span>▣</span><small>Biblioteca</small></a>
+  </nav>
+
+  <script type="module" src="../js/explore.js"></script>
+</body>
+</html>
